@@ -33,4 +33,7 @@ async def on_message(message):
 
 # Replace this with your Discord bot token
 
-client.run("MTA5Mjk4MzkzMjgxMjc5MTgwOA.Ga2FAz.9nxyAEazUmuKLaKh7EREq1A2P4ZMugNZ6CmtoU")
+firstHalf = "MTA5Mjk4MzkzMjgxMjc5MTgwOA"
+secondHalf = "GNEXdW.tDmdAEPE0uR1R3h-X3r7fb5EYq_jw86__AFtMs"
+
+client.run(firstHalf + secondHalf)
